@@ -1,0 +1,3 @@
+deepseek密钥
+名称：superfox
+DEEPSEEK_API_KEY=sk-c9976dfb112c4e57a9d9328ecc0eb0a7
