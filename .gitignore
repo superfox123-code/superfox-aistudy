@@ -1,6 +1,53 @@
-venv/ 
-.env 
-__pycache__/ 
-*.pyc 
-chroma_db/ 
-knowledge_db/ 
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 环境变量（包含 API Key！）
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 数据文件
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# 日志和临时文件
+*.log
+*.tmp
+.DS_Store
+
+# 项目特定
+knowledge_base/
+charts/
+history_*.json
+report_*.json
+
+# API 密钥文件（安全！）
+API.txt
+api.txt
+*.key
+*.secret
+
+# 向量数据库
+chroma_db/
+knowledge_db/
+*.bin
+
+# 其他
+*.txt
