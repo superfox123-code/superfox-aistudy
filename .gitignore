@@ -34,6 +34,7 @@ build/
 
 # 项目特定
 knowledge_base/
+**/knowledge_base/
 charts/
 history_*.json
 report_*.json
